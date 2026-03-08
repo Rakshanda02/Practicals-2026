@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML Table Example</title>
+</head>
+
+<body>
+
+<h2>Aim of the Practical</h2>
+<p>
+To develop a webpage to display tabular data such as a timetable or student
+record using HTML advanced table tags and attributes.
+</p>
+
+<h2>Table Elements Used</h2>
+<ul>
+<li>&lt;table&gt; : Container for all table data.</li>
+<li>&lt;tr&gt; : Defines a table row.</li>
+<li>&lt;th&gt; : Defines a table header cell.</li>
+<li>&lt;td&gt; : Defines table data.</li>
+<li>&lt;caption&gt; : Title of the table.</li>
+<li>&lt;thead&gt; : Groups header rows.</li>
+<li>&lt;tbody&gt; : Groups body rows.</li>
+<li>&lt;tfoot&gt; : Groups footer rows.</li>
+<li>rowspan : Merges cells vertically.</li>
+<li>colspan : Merges cells horizontally.</li>
+</ul>
+
+<hr>
+
+<h2>College Timetable</h2>
+
+<table border="1" cellpadding="10" cellspacing="5">
+
+<caption><b>Weekly Class Timetable</b></caption>
+
+<thead>
+<tr>
+<th>Day</th>
+<th>9:00 - 10:00</th>
+<th>10:00 - 11:00</th>
+<th>11:00 - 12:00</th>
+<th>12:00 - 1:00</th>
+<th>1:00 - 2:00</th>
+<th>2:00 - 3:00</th>
+</tr>
+</thead>
+
+<tbody>
+<tr>
+<td>Monday</td>
+<td>Math</td>
+<td>Physics</td>
+<td>Chemistry</td>
+<td rowspan="5">Lunch Break</td>
+<td>English</td>
+<td>Computer</td>
+</tr>
+
+<tr>
+<td>Tuesday</td>
+<td>Biology</td>
+<td>Math</td>
+<td>Physics</td>
+<td>Computer</td>
+<td>Sports</td>
+</tr>
+
+<tr>
+<td>Wednesday</td>
+<td>Chemistry</td>
+<td>Math</td>
+<td>English</td>
+<td>Physics</td>
+<td>Computer</td>
+</tr>
+
+<tr>
+<td>Thursday</td>
+<td>Math</td>
+<td>Computer</td>
+<td>Physics</td>
+<td>Chemistry</td>
+<td>English</td>
+</tr>
+
+<tr>
+<td>Friday</td>
+<td>Biology</td>
+<td>Math</td>
+<td>Computer</td>
+<td colspan="2">Lab Practical</td>
+</tr>
+</tbody>
+
+<tfoot>
+<tr>
+<td colspan="7" align="center">
+End of Timetable
+</td>
+</tr>
+</tfoot>
+
+</table>
+
+</body>
+</html>
