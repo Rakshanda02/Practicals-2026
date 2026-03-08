@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>HTML5 Layout Example</title>
+</head>
+
+<body>
+
+    <!-- Header Section (Masthead) -->
+    <header>
+        <h1>Welcome to My Web Page</h1>
+        <p><b>This is the header section of the page</b></p>
+        <hr>
+    </header>
+
+    <!-- Main Content Section -->
+    <section>
+        <article>
+            <h1>Main Article Heading</h1>
+
+            <p>
+                This is a <b>bold</b> text example.<br>
+                This is an <i>italic</i> text example.<br>
+                This is an <u>underlined</u> text example.
+            </p>
+
+            <p>
+                HTML is used to create web pages.<br>
+                It allows us to add headings, paragraphs, images,
+                tables and many other elements to a web page.
+            </p>
+
+            <hr>
+
+            <h1>Another Section Heading</h1>
+            <p>
+                The layout of an HTML page is similar to a newspaper:
+                <br>Top → Header
+                <br>Middle → Content Section
+                <br>Bottom → Footer
+            </p>
+        </article>
+    </section>
+
+    <!-- Footer Section -->
+    <footer>
+        <hr>
+        <p><i>Created for Web Designing Lab</i></p>
+        <p><b>S.B.J.I.T.M.R., Nagpur</b></p>
+    </footer>
+
+</body>
+
+</html>
