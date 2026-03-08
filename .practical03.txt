@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTML5 Lists, Links, Images and Marquee</title>
+</head>
+
+<body>
+
+<h2>Aim of the Practical</h2>
+<p>
+To design a basic webpage using HTML5 elements such as text formatting,
+ordered list, unordered list, description list, hyperlinks (internal,
+external and email links), images and marquee.
+</p>
+
+<h2>Elements Used in this Practical</h2>
+<p>
+This webpage demonstrates the use of different HTML elements such as:
+</p>
+
+<ul>
+<li>Text formatting tags like <b>bold</b>, <i>italic</i>, and <u>underline</u></li>
+<li>Lists: Ordered list, Unordered list and Description list</li>
+<li>Hyperlinks: Internal link, External link and Email link</li>
+<li>Images using the img tag</li>
+<li>Scrolling text using marquee tag</li>
+</ul>
+
+<hr>
+
+<h2>Text Formatting Example</h2>
+<p>
+This is <b>bold text</b>, this is <i>italic text</i>, and this is <u>underlined text</u>.
+</p>
+
+<hr>
+
+<h2>Unordered List (Bullet List)</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+</ul>
+
+<h2>Ordered List (Numbered List)</h2>
+<ol>
+<li>Open text editor</li>
+<li>Write HTML code</li>
+<li>Save with .html extension</li>
+<li>Run in browser</li>
+</ol>
+
+<h2>Description List</h2>
+<dl>
+<dt>HTML</dt>
+<dd>HyperText Markup Language used to create webpages.</dd>
+
+<dt>CSS</dt>
+<dd>Used to style and design webpages.</dd>
+
+<dt>JavaScript</dt>
+<dd>Used to add interactivity to webpages.</dd>
+</dl>
+
+<hr>
+
+<h2>Hyperlinks</h2>
+
+<p>
+External Link:
+<a href="https://www.google.com" target="_blank">Visit Google</a>
+</p>
+
+<p>
+Email Link:
+<a href="mailto:abc@xyz.com">Send Email</a>
+</p>
+
+<p>
+Internal Link:
+<a href="#bottom">Go to Bottom of Page</a>
+</p>
+
+<hr>
+
+<h2>Image Example</h2>
+
+<img src="https://via.placeholder.com/150"
+alt="Sample Image"
+width="150"
+height="150">
+
+<hr>
+
+<h2>Marquee Example</h2>
+
+<marquee direction="left" scrolldelay="100">
+Welcome to my HTML5 Practical Webpage!
+</marquee>
+
+<br><br><br>
+
+<h3 id="bottom">This is the Bottom of the Page</h3>
+<p>You reached the bottom using an internal link.</p>
+
+</body>
+</html>
