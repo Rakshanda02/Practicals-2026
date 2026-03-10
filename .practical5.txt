@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>My Resume</title>
+
+<style>
+
+body{
+    font-family: Arial, sans-serif;
+    background-color:#eaf4ff;
+    margin:0;
+    padding:20px;
+}
+
+/* Resume container */
+.container{
+    width:70%;
+    margin:auto;
+    background:white;
+    padding:30px;
+    border-radius:10px;
+    box-shadow:0 0 10px rgba(0,0,0,0.2);
+}
+
+/* Header */
+header{
+    text-align:center;
+}
+
+header img{
+    width:130px;
+    height:130px;
+    border-radius:50%;
+    border:3px solid #4a90e2;
+}
+
+h1{
+    color:#2c3e50;
+}
+
+h2{
+    color:#4a90e2;
+    border-bottom:2px solid #4a90e2;
+    padding-bottom:5px;
+}
+
+/* Table */
+table{
+    width:100%;
+    border-collapse:collapse;
+}
+
+table, th, td{
+    border:1px solid #ccc;
+}
+
+th{
+    background:#4a90e2;
+    color:white;
+}
+
+th, td{
+    padding:10px;
+    text-align:center;
+}
+
+/* Links */
+a{
+    color:#4a90e2;
+    text-decoration:none;
+}
+
+a:hover{
+    text-decoration:underline;
+}
+
+ul,ol{
+    padding-left:20px;
+}
+
+</style>
+</head>
+
+<body>
+
+<div class="container">
+
+<header>
+<h1>Rakshanda Wandhare</h1>
+
+<img src="https://upload.wikimedia.org/wikipedia/commons/9/99/Sample_User_Icon.png" 
+alt="Profile Photo">
+
+<p>Email: rakshanda@gmail.com | Phone: 9876543210</p>
+
+<p>
+LinkedIn: 
+<a href="https://www.linkedin.com" target="_blank">
+www.linkedin.com
+</a>
+</p>
+
+</header>
+
+<section>
+
+<h2>Career Objective</h2>
+
+<p>
+To obtain a challenging position in an organization where I can use my
+skills in web development and grow professionally.
+</p>
+
+</section>
+
+<section>
+
+<h2>Educational Qualification</h2>
+
+<table>
+
+<tr>
+<th>Qualification</th>
+<th>Institute</th>
+<th>Year</th>
+<th>Percentage</th>
+</tr>
+
+<tr>
+<td>BtechComputer Science</td>
+<td>S.B.Jain College</td>
+<td>2025</td>
+<td>80%</td>
+</tr>
+
+<tr>
+<td>HSC</td>
+<td>Gurukul Junior College</td>
+<td>2022</td>
+<td>75%</td>
+</tr>
+
+<tr>
+<td>SSC</td>
+<td>St. Aloysius School</td>
+<td>2020</td>
+<td>82%</td>
+</tr>
+
+</table>
+
+</section>
+
+<section>
+
+<h2>Technical Skills</h2>
+
+<ul>
+<li>HTML5</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>Python</li>
+</ul>
+
+</section>
+
+<section>
+
+<h2>Hobbies</h2>
+
+<ol>
+<li>Reading Books</li>
+<li>Playing Badminton</li>
+<li>Traveling</li>
+</ol>
+
+</section>
+
+<section>
+
+<h2>Useful Links</h2>
+
+<p>
+I learnt Web Development from 
+<a href="https://www.w3schools.com" target="_blank">
+W3Schools
+</a>
+</p>
+
+</section>
+
+</div>
+
+</body>
+</html>
