@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Scholarship / Seminar Registration Form</title>
+  <style>
+    body { font-family: Arial, sans-serif; margin: 20px; }
+    fieldset { margin-bottom: 20px; padding: 15px; border-radius: 8px; }
+    legend { font-weight: bold; }
+    label { display: block; margin-top: 10px; }
+    input, select { margin-top: 5px; padding: 5px; width: 100%; }
+    .inline { width: auto; }
+    button { padding: 10px 15px; }
+  </style>
+</head>
+<body>
+
+<h2>Scholarship / Seminar Registration Form</h2>
+
+<form>
+
+  <!-- Personal Details -->
+  <fieldset>
+    <legend>Personal Information</legend>
+
+    <label for="name">Full Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required>
+
+    <label for="phone">Phone Number:</label>
+    <input type="tel" id="phone" name="phone" required>
+
+    <label>Gender:</label>
+    <input type="radio" id="male" name="gender" value="male" required class="inline">
+    <label for="male" class="inline">Male</label>
+
+    <input type="radio" id="female" name="gender" value="female" class="inline">
+    <label for="female" class="inline">Female</label>
+
+    <input type="radio" id="other" name="gender" value="other" class="inline">
+    <label for="other" class="inline">Other</label>
+
+  </fieldset>
+
+  <!-- Academic Details -->
+  <fieldset>
+    <legend>Academic Information</legend>
+
+    <label for="course">Select Course:</label>
+    <select id="course" name="course" required>
+      <option value="">--Select--</option>
+      <option value="btech">B.Tech</option>
+      <option value="bsc">B.Sc</option>
+      <option value="bcom">B.Com</option>
+      <option value="mba">MBA</option>
+      <option value="msc">M.Sc</option>
+    </select>
+
+    <label for="year">Year of Study:</label>
+    <select id="year" name="year" required>
+      <option value="">--Select--</option>
+      <option value="1">1st Year</option>
+      <option value="2">2nd Year</option>
+      <option value="3">3rd Year</option>
+      <option value="4">4th Year</option>
+    </select>
+
+  </fieldset>
+
+  <!-- Seminar Preferences -->
+  <fieldset>
+    <legend>Seminar Preferences</legend>
+
+    <label>Preferred Topics:</label>
+    <input type="checkbox" id="ai" name="topics" value="AI" class="inline">
+    <label for="ai" class="inline">Artificial Intelligence</label>
+
+    <input type="checkbox" id="web" name="topics" value="Web Dev" class="inline">
+    <label for="web" class="inline">Web Development</label>
+
+    <input type="checkbox" id="data" name="topics" value="Data Science" class="inline">
+    <label for="data" class="inline">Data Science</label>
+
+    <input type="checkbox" id="cyber" name="topics" value="Cyber Security" class="inline">
+    <label for="cyber" class="inline">Cyber Security</label>
+
+  </fieldset>
+
+  <!-- Additional Info -->
+  <fieldset>
+    <legend>Additional Information</legend>
+
+    <label>Do you require accommodation?</label>
+    <input type="radio" id="yes" name="accommodation" value="yes" required class="inline">
+    <label for="yes" class="inline">Yes</label>
+
+    <input type="radio" id="no" name="accommodation" value="no" class="inline">
+    <label for="no" class="inline">No</label>
+
+  </fieldset>
+
+  <button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
