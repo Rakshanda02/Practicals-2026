@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tribute Page</title>
+
+<style>
+body{
+    margin:0;
+    font-family:Arial, sans-serif;
+    background:#f4f4f4;
+}
+
+/* Navigation Bar */
+nav{
+    background:#222;
+    padding:15px;
+    text-align:center;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin:15px;
+    font-size:18px;
+}
+
+nav a:hover{
+    color:yellow;
+}
+
+/* Header */
+header{
+    background:#4CAF50;
+    color:white;
+    text-align:center;
+    padding:30px;
+}
+
+/* Main Section */
+.container{
+    width:80%;
+    margin:auto;
+    background:white;
+    padding:20px;
+    margin-top:20px;
+    border-radius:10px;
+    box-shadow:0 0 10px gray;
+}
+
+img{
+    display:block;
+    margin:auto;
+    width:250px;
+    border:5px solid #4CAF50;
+    border-radius:10px;
+}
+
+h2{
+    color:#4CAF50;
+}
+
+p{
+    font-size:18px;
+    line-height:1.6;
+    text-align:justify;
+}
+
+/* Footer */
+footer{
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:15px;
+    margin-top:20px;
+}
+</style>
+
+</head>
+<body>
+
+<!-- Navigation -->
+<nav>
+    <a href="#">Home</a>
+    <a href="#">Biography</a>
+    <a href="#">Achievements</a>
+    <a href="#">Contact</a>
+</nav>
+
+<!-- Header -->
+<header>
+    <h1>Nikola Tesla</h1>
+    <p>Father of Modern Electricity</p>
+</header>
+
+<!-- Main Content -->
+<div class="container">
+
+    <img src="https://upload.wikimedia.org/wikipedia/commons/d/d4/N.Tesla.JPG" alt="Nikola Tesla">
+
+    <h2>About</h2>
+    <p>
+        Nikola Tesla was a brilliant inventor, electrical engineer, and futurist.
+        He is best known for developing the alternating current (AC) electrical system,
+        which became the standard for power transmission worldwide.
+        Tesla's ideas and inventions greatly influenced modern technology.
+    </p>
+
+    <h2>Achievements</h2>
+    <p>
+        ✔ Developed Alternating Current (AC) System<br>
+        ✔ Invented Tesla Coil<br>
+        ✔ Contributed to Radio Technology<br>
+        ✔ Pioneer in Wireless Communication
+    </p>
+
+</div>
+
+<!-- Footer -->
+<footer>
+    Tribute Page | Web Designing Practical
+</footer>
+
+</body>
+</html>
